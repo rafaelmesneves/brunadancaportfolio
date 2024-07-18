@@ -1,0 +1,36 @@
+#secoes {
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#secoes button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #ebf2f2;
+    color: #ebf2f2;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 25px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+}
+
+#secoes button:hover {
+    background-color: #697060;
+    transform: scale(1.1); 
+}
+
+#secoes button:not(:last-child) {
+    margin-left: 1%;
+}
+
+#secoes a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+#background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+}
+
+.content, header, main, section, button, a, ul, li {
+    position: relative;
+    z-index: 1;
+}
+
+.titulo-pagina-inicial {
+    color: #e0e4ce;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-pagina-inicial h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+    font-size: 80px;
+    margin-top: 10%;
+}
+
+.titulo-pagina-inicial h2{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: 100;
+    font-size: 40px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}

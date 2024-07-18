@@ -1,0 +1,25 @@
+#redes {
+    padding: 20px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#redes ul {
+    list-style: none;
+}
+
+#redes img {
+    width: 11%;
+    height: auto;
+    filter: invert(1) brightness(2);
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#redes img:not(:last-child) {
+    margin-left: 4%;
+}
+
+#redes img:hover {
+    transform: scale(1.1); 
+}
