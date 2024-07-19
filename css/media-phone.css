@@ -132,13 +132,13 @@
     .titulo-pagina-inicial h1 {
         font-family: "Josefin Sans", sans-serif;
         font-weight: 500;
-        font-size: 22px;
+        font-size: 24px;
     }
     
     .titulo-pagina-inicial h2 {
         font-family: "Edu AU VIC WA NT Hand", cursive;
         font-weight: 100;
-        font-size: 15px;
+        font-size: 18px;
         margin-top: 1%;
         margin-bottom: 1%;
     }
@@ -147,7 +147,7 @@
         width: 85%;
         flex-direction: row;
         justify-content: center;
-        margin-top: -6%;
+        margin-top: -10%;
         transition: all 0.5s ease;
     }
 
@@ -164,7 +164,7 @@
     }
 
     #redes {
-        margin-top: -6%;
+        margin-top: -5%;
     }
     #redes ul {
         transition: all 0.5s ease;
