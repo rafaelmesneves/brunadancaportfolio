@@ -1,0 +1,106 @@
+@media (max-width: 715px) {
+    #background-video {
+        display: none; 
+    }
+    
+    #background-image {
+        display: block; 
+    }
+    
+    .content, header, main, section, button, a, ul, li {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .titulo-pagina-inicial {
+        color: #520c00;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .titulo-pagina-inicial h1 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 500;
+        font-size: 80px;
+        margin-top: 10%;
+    }
+    
+    .titulo-pagina-inicial h2 {
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-weight: 100;
+        font-size: 40px;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    #secoes {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #secoes button {
+        width: 100%;
+        margin: 10px 0;
+        border: 2px solid #ebf2f2;
+        filter: invert(1) brightness(2);
+    }
+
+    #redes ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #redes li {
+        margin: 10px 0;
+
+    }
+
+    #redes img {
+        width: 25%;
+        filter: invert(0) brightness(1);
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 912px){
+    
+    .titulo-pagina-inicial {
+        text-align: center;
+        padding: 20px;
+        margin-top: 15%;
+    }
+    
+    .titulo-pagina-inicial h1 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 500;
+        font-size: 100px;
+        margin-top: 10%;
+    }
+    
+    .titulo-pagina-inicial h2 {
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-weight: 100;
+        font-size: 60px;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    #secoes {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #secoes button {
+        width: 100%;
+        margin: 10px 0;
+        border: 2px solid #ebf2f2;
+        font-size: 40px;
+    }
+
+    #redes img {
+        width: 30%;
+    }
+}
