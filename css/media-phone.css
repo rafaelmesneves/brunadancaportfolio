@@ -120,22 +120,19 @@
     }
     
     .content {
-        padding: 10px;
         text-align: center;
     }
     
     .titulo-pagina-inicial {
         color: #e0e4ce;
         text-align: center;
-        padding: 10px;
-        margin: -8%;
+        margin-top: -8%;
     }
     
     .titulo-pagina-inicial h1 {
         font-family: "Josefin Sans", sans-serif;
         font-weight: 500;
         font-size: 24px;
-        margin-top: 13%;
     }
     
     .titulo-pagina-inicial h2 {
@@ -150,7 +147,7 @@
         width: 85%;
         flex-direction: row;
         justify-content: center;
-        margin-top: -22%;
+        margin-top: -13%;
         transition: all 0.5s ease;
     }
 
@@ -166,6 +163,9 @@
         margin-left: 3%;
     }
 
+    #redes {
+        margin-top: -5%;
+    }
     #redes ul {
         transition: all 0.5s ease;
     }
