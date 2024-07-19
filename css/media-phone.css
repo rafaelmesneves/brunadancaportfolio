@@ -126,19 +126,19 @@
     .titulo-pagina-inicial {
         color: #e0e4ce;
         text-align: center;
-        margin-top: -8%;
+        margin-top: -9%;
     }
     
     .titulo-pagina-inicial h1 {
         font-family: "Josefin Sans", sans-serif;
         font-weight: 500;
-        font-size: 24px;
+        font-size: 22px;
     }
     
     .titulo-pagina-inicial h2 {
         font-family: "Edu AU VIC WA NT Hand", cursive;
         font-weight: 100;
-        font-size: 17px;
+        font-size: 15px;
         margin-top: 1%;
         margin-bottom: 1%;
     }
@@ -147,14 +147,14 @@
         width: 85%;
         flex-direction: row;
         justify-content: center;
-        margin-top: -13%;
+        margin-top: -6%;
         transition: all 0.5s ease;
     }
 
     #secoes button {
         width: 100%;
         margin: 10px 0;
-        font-size: 14px;
+        font-size: 13px;
         padding: 10px 5px;
         margin-left: 3%;
     }
@@ -164,7 +164,7 @@
     }
 
     #redes {
-        margin-top: -5%;
+        margin-top: -6%;
     }
     #redes ul {
         transition: all 0.5s ease;
@@ -175,6 +175,6 @@
     }
 
     #redes img {
-        width: 12%;
+        width: 10%;
     }
 }
