@@ -104,3 +104,71 @@
         width: 30%;
     }
 }
+
+@media (max-height: 500px) and (orientation: landscape) {
+    header {
+        height: 100%; /* Certifique-se de que o header ocupe toda a altura da viewport */
+    }
+
+    #background-video {
+        width: 100%; /* Ajusta a largura do vídeo para a largura da viewport */
+        height: auto;
+        top: 0;
+        left: 0;
+        transform: none; /* Remove a transformação para centralizar o vídeo */
+    }
+    
+    .content {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .titulo-pagina-inicial {
+        color: #e0e4ce;
+        text-align: center;
+        padding: 20px;
+        margin: -11%;
+    }
+    
+    .titulo-pagina-inicial h1 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        margin-top: 11%;
+    }
+    
+    .titulo-pagina-inicial h2 {
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-weight: 100;
+        font-size: 22px;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    #secoes {
+        width: 85%;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -18%;
+    }
+
+    #secoes button {
+        width: 100%;
+        margin: 10px 0;
+        font-size: 22px;
+        padding: 20px 10px;
+        margin-left: 3%;
+    }
+
+    #secoes button:not(:last-child) {
+        margin-left: 3%;
+    }
+
+    #redes li {
+        margin: 10px 0;
+    }
+
+    #redes img {
+        width: 18%;
+    }
+}
