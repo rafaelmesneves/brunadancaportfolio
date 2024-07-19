@@ -1,4 +1,4 @@
-@media (max-width: 715px) {
+@media (min-width: 344px) and (max-width: 715px) {
     #background-video {
         display: none; 
     }
@@ -21,14 +21,14 @@
     .titulo-pagina-inicial h1 {
         font-family: "Josefin Sans", sans-serif;
         font-weight: 500;
-        font-size: 80px;
+        font-size: 50px;
         margin-top: 10%;
     }
     
     .titulo-pagina-inicial h2 {
         font-family: "Edu AU VIC WA NT Hand", cursive;
         font-weight: 100;
-        font-size: 40px;
+        font-size: 25px;
         margin-top: 1%;
         margin-bottom: 2%;
     }
@@ -64,7 +64,7 @@
     }
 }
 
-@media (max-width: 912px){
+@media (min-width: 716px) and (max-width: 912px){
     
     .titulo-pagina-inicial {
         text-align: center;
